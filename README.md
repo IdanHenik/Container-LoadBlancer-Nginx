@@ -4,7 +4,9 @@
 
 ![hi](https://i.postimg.cc/5NQbNCkD/Whats-App-Image-2022-03-16-at-1-33-47-PM-removebg-preview.png)
 
-In this project i will show you how to create a contnainer based an Nginx image and configure it as Load Blancer.
+
+
+In this project i will show you how to create a container based an Nginx image and configure it as Load Blancer,
 In this example its funcation as load balancer between two apache servers.
 
 
@@ -21,7 +23,7 @@ our first step will be to install apache on both of the virtual machines, I prec
 . Okay we talked enough let's start !
 
 - CentsOS:
-First clean up yum:
+First clean up yum
 ```bash
  sudo yum clean all
 ```
@@ -33,7 +35,7 @@ now we ready to install Apache:
 ```bash
   sudo yum install httpd 
 ```
-- Ubuntu:
+- Ubuntu
 First apt update :
 ```bash
   sudo apt update
