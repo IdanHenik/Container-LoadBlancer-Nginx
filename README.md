@@ -1,12 +1,12 @@
 
-# Nginx LB as Contnainer
+# Nginx LB as Container
 
 
 ![hi](https://i.postimg.cc/5NQbNCkD/Whats-App-Image-2022-03-16-at-1-33-47-PM-removebg-preview.png)
 
 
 
-In this project i will show you how to create a container based an Nginx image and configure it as Load Blancer,
+In this project i will show you how to create a container based an Nginx image and configure it as Load balancer,
 In this example its funcation as load balancer between two apache servers.
 
 
@@ -16,7 +16,7 @@ In this example its funcation as load balancer between two apache servers.
 
 # Requirements 
 - 2 Virtual Machines
-- another host for Docker Contnainer
+- another host for Docker Container
 
 # Installing apache
 our first step will be to install apache on both of the virtual machines, I precisely choose to use diffrent OS (Ubuntu & CentOS) beacause each of them has diffrent apache default page so we could see the load balancer at work 
@@ -82,7 +82,7 @@ Result : ![resualt](https://i.postimg.cc/65VyjLJL/Slide2.png)
 ![result2](https://i.postimg.cc/5yBNr1GN/Slide3.png)
 
 Great ! now we got our apache servers ready.
-all we need to do is create the Nginx contnainer and configure it as Load Blancer :)
+all we need to do is create the Nginx Container and configure it as Load balancer :)
 
 # Docker Container
 for the next step we need docker installed in our enviroment so make sure you have it.
